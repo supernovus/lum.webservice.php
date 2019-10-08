@@ -1,0 +1,26 @@
+{
+  "name": "lum/lum-webservice",
+  "description": "Lum Web Service client",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "php": "^7.0",
+    "lum/lum-core": "^1.2 || dev-master",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Lum\\": "lib"
+    }
+  }
+}
