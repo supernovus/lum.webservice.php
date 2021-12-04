@@ -13,7 +13,7 @@
   "require":
   {
     "php": "^7.0 || ^8.0",
-    "lum/lum-core": "^1.2 || dev-master",
+    "lum/lum-core": "^1.7",
     "guzzlehttp/guzzle": "^7.3"
   },
   "autoload":
@@ -21,6 +21,13 @@
     "psr-4":
     {
       "Lum\\": "lib"
+    }
+  },
+  "extra":
+  {
+    "branch-alias":
+    {
+      "dev-main": "1.x-dev"
     }
   }
 }
