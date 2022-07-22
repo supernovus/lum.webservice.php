@@ -13,8 +13,9 @@
   "require":
   {
     "lum/lum-compat": "^2.0",
-    "lum/lum-core": "^2.0",
-    "guzzlehttp/guzzle": "^7.3"
+    "lum/lum-core": "^3.0",
+    "lum/lum-plugins-conf": "^1.0",
+    "guzzlehttp/guzzle": "^7.4"
   },
   "autoload":
   {
